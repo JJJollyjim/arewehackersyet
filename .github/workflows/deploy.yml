@@ -1,0 +1,20 @@
+name: "deploy"
+on:
+  push:
+    branches: ["master"]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v8
+    - name: build
+      run: nix-build ./stats.nix
+    - run: mkdir ./pages
+    - run: cp result ./pages/index.html
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./pages
+
