@@ -12,12 +12,12 @@ in
   afflib-tools = todo;
   "afl++" = todo;
   aircrack-ng = pkgs.aircrack-ng;
-  apache2 = todo;
+  apache2 = pkgs.apacheHttpd;
   apache-users = todo;
   apktool = pkgs.apktool;
   arachni = todo;
   armitage = todo;
-  "arping | iputils-arping" = todo;
+  "arping | iputils-arping" = pkgs.arpping;
   asleap = todo;
   autopsy = todo;
   backdoor-factory = todo;
@@ -225,7 +225,7 @@ in
   outguess = todo;
   owasp-mantra-ff = todo;
   p0f = pkgs.p0f;
-  p7zip-full = todo;
+  p7zip-full = pkgs.p7zip;
   pack = todo;
   padbuster = todo;
   paros = todo;
@@ -238,7 +238,7 @@ in
   pdf-parser = pkgs.pdf-parser;
   pev = pkgs.pev;
   php = pkgs.php;
-  php-mysql = todo;
+  php-mysql = phpExtensions.mysqlnd;
   pipal = todo;
   pixiewps = pkgs.pixiewps;
   plaso = todo;
@@ -364,7 +364,7 @@ in
   unicornscan = todo;
   uniscan = todo;
   unix-privesc-check = todo;
-  "unrar | unar" = todo;
+  "unrar | unar" = pkgs.unrar;
   upx-ucl = todo;
   urlcrazy = todo;
   veil = todo;
