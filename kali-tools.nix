@@ -22,7 +22,7 @@ in
   autopsy = todo;
   backdoor-factory = todo;
   bed = todo;
-  beef-xss = todo;
+  beef-xss = nur.repos.makefu.beef;
   bettercap = pkgs.bettercap;
   binwalk = pkgs.python3Packages.binwalk-full;
   bluelog = todo;
