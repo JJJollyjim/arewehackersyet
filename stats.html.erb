@@ -54,6 +54,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Kali Package</th>
+                                            <th scope="col">Description</th>
                                             <th scope="col">Nix derivation</th>
                                         </tr>
                                     </thead>
@@ -67,6 +68,7 @@
                                                 <tr class="alert-success">
                                             <% end %>
                                                 <th scope="row"><%= package_name %></th>
+                                                <td><%= descs[package_name] %></th>
                                                 <td><%= package_val %></th>
                                             </tr>
                                         <% end %>

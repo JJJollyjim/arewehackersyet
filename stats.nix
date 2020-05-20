@@ -17,11 +17,12 @@ let
     require 'erb'
     include ERB::Util
 
+    descs = JSON.parse(File.read("${./kali-descriptions.json}"))
     groups = JSON.parse(File.read("${pkgs.writeText "are-we-hackers-yet-stats-json" json}"))
 
     template = ERB.new(File.read("${./stats.html.erb}"))
 
-    puts template.result_with_hash(:groups => groups)
+    puts template.result_with_hash(:groups => groups, :descs => descs)
   '';
 in
 pkgs.runCommand "are-we-hackers-yet-stats" { } ''${rubyScript} > $out''
