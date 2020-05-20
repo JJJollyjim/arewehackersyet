@@ -318,7 +318,7 @@ in
   smbmap = todo;
   smtp-user-enum = todo;
   sniffjoke = todo;
-  snmpcheck = todo;
+  snmpcheck = pkgs.net-snmp;
   spectools = todo;
   spike = pkgs.spike;
   spooftooph = todo;
