@@ -17,7 +17,7 @@ in
   apktool = pkgs.apktool;
   arachni = todo;
   armitage = todo;
-  "arping | iputils-arping" = pkgs.arpping;
+  "arping | iputils-arping" = todo;
   asleap = todo;
   autopsy = todo;
   backdoor-factory = todo;
