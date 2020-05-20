@@ -253,9 +253,9 @@ in
   ptunnel = todo;
   pwnat = pkgs.pwnat;
   python3-capstone = pkgs.python3Packages.capstone;
-  python3-dfdatetime = todo;
-  python3-dfvfs = todo;
-  python3-dfwinreg = todo;
+  python3-dfdatetime = cantfind;
+  python3-dfvfs = cantfind;
+  python3-dfwinreg = cantfind;
   python3-distorm3 = pkgs.python3Packages.distorm3;
   qemu = pkgs.qemu;
   qsslcaudit = todo;
