@@ -68,7 +68,7 @@ in
   dcfldd = pkgs.dcfldd;
   ddrescue = pkgs.ddrescue;
   default-mysql-server = todo;
-  dex2jar = todo;
+  dex2jar = nur.repos.makefu.dex2jar;
   dhcpig = todo;
   dirb = pkgs.dirb;
   dirbuster = todo;
