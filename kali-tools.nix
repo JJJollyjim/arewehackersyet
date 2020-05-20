@@ -169,9 +169,9 @@ in
   lbd = todo;
   legion = todo;
   libfindrtp = todo;
-  libfreefare-bin = todo;
-  libhivex-bin = todo;
-  libnfc-bin = todo;
+  libfreefare-bin = pkgs.libfreefare;
+  libhivex-bin = pkgs.hivex;
+  libnfc-bin = pkgs.libnfc;
   lime-forensics = todo;
   lvm2 = pkgs.lvm2;
   lynis = pkgs.lynis;
