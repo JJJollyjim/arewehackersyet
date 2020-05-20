@@ -1,0 +1,11 @@
+#! /usr/bin/env nix-shell
+#! nix-shell -i /bin/bash --pure -p bash nixpkgs-fmt
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+# To enable this hook, rename this file to "pre-commit".
+
+nixpkgs-fmt *.nix **/*.nix
