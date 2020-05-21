@@ -6,7 +6,7 @@ pkg = nil
 
 res = {}
 
-ARGF.each_line do |l|
+STDIN.each_line do |l|
   if l =~ /^Package: (.*)$/
     pkg = $1
   elsif pkg != nil && l =~ /^Description: (.*)$/
