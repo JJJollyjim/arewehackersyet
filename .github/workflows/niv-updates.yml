@@ -23,14 +23,6 @@ jobs:
           skip_versioned_revisions: true
           # Do not skip dependencies in repos accessed via ssh from updating
           skip_ssh_repos: false
-          # Update all dependencies tracked by niv. Another example: 'common,jq,hub'
-          whitelist: ''
-          # Do not blacklist any of the dependencies. Another example: 'nixpkgs,niv'
-          blacklist: ''
-          # Note that | is really important for the labels
-          labels: |
-            documentation
-            good first issue
           # Let's not show merges in the changelog
           show_merges: false
           # Have some prefix and a suffix. Use '|' to keep newlines
