@@ -10,7 +10,7 @@ in
   aesfix = todo;
   aeskeyfind = todo;
   afflib-tools = todo;
-  "afl++" = todo;
+  "afl++" = pkgs.aflplusplus;
   aircrack-ng = pkgs.aircrack-ng;
   apache2 = pkgs.apacheHttpd;
   apache-users = todo;
