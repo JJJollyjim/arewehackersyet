@@ -353,7 +353,7 @@ in
   theharvester = pkgs.theharvester;
   tlssled = todo;
   tnscmd10g = todo;
-  truecrack = todo;
+  truecrack = pkgs.truecrack;
   twofi = todo;
   ubertooth = todo;
   udptunnel = pkgs.udptunnel;
