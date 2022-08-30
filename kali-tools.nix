@@ -18,7 +18,7 @@ in
   arachni = todo;
   armitage = todo;
   "arping | iputils-arping" = pkgs.arping;
-  asleap = todo;
+  asleap = cantfind;
   autopsy = todo;
   backdoor-factory = todo;
   bed = todo;
@@ -85,7 +85,7 @@ in
   driftnet = pkgs.driftnet;
   dsniff = pkgs.dsniff;
   dumpzilla = todo;
-  eapmd5pass = todo;
+  eapmd5pass = cantfind;
   edb-debugger = todo;
   enum4linux = pkgs.enum4linux;
   enumiax = todo;
@@ -101,7 +101,7 @@ in
   eyewitness = todo;
   faraday = todo;
   fcrackzip = pkgs.fcrackzip;
-  fern-wifi-cracker = todo;
+  fern-wifi-cracker = cantfind;
   fierce = pkgs.fierce;
   fiked = todo;
   firewalk = todo;
@@ -113,7 +113,7 @@ in
   forensics-colorize = todo;
   fping = pkgs.fping;
   fragrouter = todo;
-  freeradius-wpe = todo;
+  freeradius-wpe = cantfind;
   freerdp2-x11 = todo;
   ftester = todo;
   galleta = todo;
@@ -137,7 +137,7 @@ in
   hash-identifier = todo;
   heartleech = todo;
   hexinject = todo;
-  hostapd-wpe = todo;
+  hostapd-wpe = cantfind;
   hping3 = pkgs.hping;
   httprint = todo;
   httrack = pkgs.httrack;
@@ -183,8 +183,8 @@ in
   masscan = pkgs.masscan;
   md5deep = todo;
   mdbtools = pkgs.mdbtools;
-  mdk3 = todo;
-  mdk4 = todo;
+  mdk3 = cantfind;
+  mdk4 = pkgs.md4-unstable;
   medusa = pkgs.medusa;
   memdump = todo;
   metacam = todo;
@@ -206,7 +206,7 @@ in
   nbtscan = todo;
   ncat = pkgs.ncat;
   ncat-w32 = todo;
-  ncrack = todo;
+  ncrack = pkgs.ncrack;
   netdiscover = todo;
   netmask = pkgs.netmask;
   netsniff-ng = pkgs.netsniff-ng;
@@ -381,7 +381,7 @@ in
   weevely = todo;
   wfuzz = pkgs.wfuzz;
   whatweb = todo;
-  wifi-honey = todo;
+  wifi-honey = cantfind;
   wifite = pkgs.wifite2;
   windows-binaries = todo;
   windows-privesc-check = todo;
