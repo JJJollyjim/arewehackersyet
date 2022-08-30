@@ -206,7 +206,7 @@ in
   nbtscan = todo;
   ncat = pkgs.ncat;
   ncat-w32 = todo;
-  ncrack = todo;
+  ncrack = pkgs.ncrack;
   netdiscover = todo;
   netmask = pkgs.netmask;
   netsniff-ng = pkgs.netsniff-ng;
