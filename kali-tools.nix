@@ -9,7 +9,7 @@ in
   ace-voip = todo;
   aesfix = todo;
   aeskeyfind = todo;
-  afflib-tools = todo;
+  afflib-tools = pkgs.afflib;
   "afl++" = pkgs.aflplusplus;
   aircrack-ng = pkgs.aircrack-ng;
   apache2 = pkgs.apacheHttpd;
@@ -113,7 +113,7 @@ in
   forensics-colorize = todo;
   fping = pkgs.fping;
   fragrouter = todo;
-  freeradius-wpe = todo;
+  freeradius-wpe = pkgs.freeradius;
   freerdp2-x11 = todo;
   ftester = todo;
   galleta = todo;
@@ -357,7 +357,7 @@ in
   twofi = todo;
   ubertooth = todo;
   udptunnel = pkgs.udptunnel;
-  uhd-host = todo;
+  uhd-host = pkgs.uhd;
   uhd-images = todo;
   undbx = todo;
   unhide = todo;
