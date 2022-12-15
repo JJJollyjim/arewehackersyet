@@ -320,7 +320,7 @@ in
   sniffjoke = todo;
   snmpcheck = pkgs.net-snmp;
   spectools = todo;
-  spike = pkgs.spike;
+  spike = cantfind;
   spooftooph = todo;
   sqldict = todo;
   sqlitebrowser = pkgs.sqlitebrowser;
