@@ -86,7 +86,7 @@ in
   dsniff = pkgs.dsniff;
   dumpzilla = todo;
   eapmd5pass = todo;
-  edb-debugger = todo;
+  edb-debugger = nur.repos.bb010g.pkgs.edb-debugger;
   enum4linux = pkgs.enum4linux;
   enumiax = todo;
   "ettercap-graphical | ettercap-text-only" = pkgs.ettercap;
@@ -94,7 +94,7 @@ in
   exe2hexbat = todo;
   exifprobe = todo;
   exiv2 = pkgs.exiv2;
-  exploitdb = todo;
+  exploitdb = nur.repos.jjjollyjim.exploitdb;
   ext3grep = todo;
   ext4magic = pkgs.ext4magic;
   extundelete = pkgs.extundelete;
@@ -250,7 +250,7 @@ in
   proxychains = pkgs.proxychains;
   proxytunnel = pkgs.proxytunnel;
   pst-utils = todo;
-  ptunnel = todo;
+  ptunnel = nur.repos.sikmir.ptunnel;
   pwnat = pkgs.pwnat;
   python3-capstone = pkgs.python3Packages.capstone;
   python3-dfdatetime = cantfind;
